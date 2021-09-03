@@ -1,4 +1,4 @@
-import { Destino } from "./Destino";
+import { Destino } from "./destino";
 
 export class PaqTuristico {
   constructor(

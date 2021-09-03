@@ -6,14 +6,15 @@ export abstract class VentasOnline {
     public porcentajeDescuento: string,
     public fecha: string,
     public refPaq: string,
-    /*public cantPersonas: number,
+    public clienteHechoVenta: string,
+    //
+    public cantPersonas: number,
     public cantDias: number,
-    fdesde: string,*/
-    public clienteHechoVenta: string
+    public fdesde: string
   ) {}
   darImporteVenta(): number {
     let importeVenta: number;
-    return this.cantDias * this.fdesde * this.cantPersonas;
+    return (importeVenta = this.cantDias * this.fdesde * this.cantPersonas);
     //return cantDias: number * fdesde: string * cantPersonas: number
   }
 }
